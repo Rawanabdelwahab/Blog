@@ -9,8 +9,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'Testing Github action'
-        run: pwd
+      - name: 'printing folder'
+        run: ls
 
       - name: 'Testing Printing'
         run: echo Ahmad
