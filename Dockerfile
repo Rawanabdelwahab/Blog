@@ -1,10 +1,10 @@
-FROM node:14
+FROM node:18
 
 WORKDIR /usr/src/app
 
 # Install app dependencies
 COPY package*.json ./
-RUN npm Install
+RUN npm install
 # Bundle app source
 COPY . .
 EXPOSE 8000
